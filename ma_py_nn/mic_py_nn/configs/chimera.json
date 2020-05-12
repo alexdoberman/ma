@@ -1,0 +1,45 @@
+{
+    "batcher": {
+        "batch_size": 32,
+        "frame_rate": 16000,
+        "fftsize": 512,
+        "overlap": 2,
+        "min_snr": -3,
+        "max_snr": 3,
+        "context_size": 100,
+        "enable_rir": 1,
+        "rir_prob": 0.5,
+        "enable_preemphasis": 0
+    },
+
+    "trainer": {
+        "max_num_steps": 1000000,
+        "check_stop_frequency": 1000,
+        "stop_threshold": 30000,
+        "learning_rate": 0.001,
+        "max_to_keep":10,
+        "device": "/gpu:0",
+        "save_model_frequency": 5000,
+        "validation_frequency": 10
+    },
+
+    "model": {
+        "alpha": 0.5,
+        "F": 257,
+        "layers_count": 4,
+        "layer_size": 500,
+        "embedding_size": 20,
+        "nonlinearity": "tf.tanh"
+    },
+
+    "predictor": {
+        "type": "mi",
+        "num_sources": 2,
+        "save_masks": 0,
+        "predict_by_chunks": 0,
+        "chunk_size": 60
+    },
+
+    "exp_name": "chimera_r"
+}
+

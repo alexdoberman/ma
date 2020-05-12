@@ -1,0 +1,55 @@
+{
+    "batcher": {
+        "batch_size": 16,
+        "frame_rate": 8000,
+        "fftsize": 512,
+        "overlap": 2,
+        "min_snr": 0,
+        "max_snr": 5,
+        "context_size": 120,
+        "enable_rir": 0,
+        "rir_prob": 0,
+        "enable_preemphasis": 0
+    },
+
+    "trainer": {
+        "max_num_step": 5000,
+        "check_stop_frequency": 100,
+        "stop_threshold": 1000,
+        "print_step": 10,
+
+        "learning_rate": 0.001,
+        "discriminator_learning_rate": 0.00001,
+        "unet_learning_rate": 0.001,
+        "max_to_keep": 5,
+        "device": "/gpu:0",
+
+        "validation_frequency": 100,
+        "save_model_frequency": 1000,
+
+        "discriminator_step_num": 1,
+        "generator_step_num": 3
+    },
+
+    "model": {
+        "unet_base": 8,
+        "depth": 4,
+        "dis_depth": 3,
+        "dis_base": 4,
+        "dis_filter_size": 3,
+        "dis_out_size": 1,
+        "dis_gen_size": 1,
+        "gen_out_size": 2,
+        "mask_count": 2,
+        "filter_size": 3,
+        "window_width": 120,
+        "exp_decay": 0.9,
+        "batch_norm": 0,
+        "regularization": 0,
+        "reg_coef": 1e-6,
+
+        "device": "/gpu:0"
+    },
+
+    "exp_name": "ugan_test"
+}

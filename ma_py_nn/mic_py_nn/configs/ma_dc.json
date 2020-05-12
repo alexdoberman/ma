@@ -1,0 +1,39 @@
+{
+    "batcher": {
+        "batch_size": 32,
+        "frame_rate": 16000,
+        "fftsize": 512,
+        "overlap": 2,
+        "min_snr": -6,
+        "max_snr": 0,
+        "context_size": 100,
+        "enable_rir": 1,
+        "rir_prob": 0.9,
+        "enable_preemphasis": 0
+    },
+
+    "trainer": {
+        "max_num_steps": 1000000,
+        "check_stop_frequency": 1000,
+        "stop_threshold": 10000,
+    
+        "learning_rate": 0.001,
+        "max_to_keep":10,
+        "device": "/gpu:0",
+        "save_model_frequency": 5000,
+        "validation_frequency": 10
+    },
+
+    "model": {
+        "F": 771,
+        "F_out": 257,
+        "layers_count": 4,
+        "layer_size": 600,
+        "embedding_size": 40,
+        "nonlinearity": "tanh",
+        "normalize": 0
+    },
+
+    "exp_name": "mc_dc"
+}
+

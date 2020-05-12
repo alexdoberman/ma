@@ -1,0 +1,45 @@
+{
+    "batcher": {
+        "batch_size": 28,
+        "frame_rate": 16000,
+        "fftsize": 512,
+        "overlap": 2,
+        "min_snr": 0,
+        "max_snr": 5,
+        "context_size": 120,
+        "enable_rir": 1,
+        "rir_prob": 0.9,
+        "enable_preemphasis": 0
+    },
+
+    "trainer": {
+        "max_num_step": 90000,
+        "check_stop_frequency": 100,
+        "stop_threshold": 1000,
+        "print_step": 10,
+
+        "learning_rate": 0.001,
+        "max_to_keep": 5,
+        "device": "/gpu:0",
+
+        "validation_frequency": 100,
+        "save_model_frequency": 1000
+    },
+
+    "model": {
+        "unet_base": 8,
+        "depth": 4,
+        "loss_function": "huber",
+        "mask_count": 2,
+        "filter_size": 3,
+        "window_width": 120,
+        "exp_decay": 0.9,
+        "batch_norm": 0,
+        "regularization": 1,
+        "reg_coef": 1e-6,
+         
+        "device": "/gpu:0"
+    },
+
+    "exp_name": "unet_v12_huber"
+}

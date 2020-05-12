@@ -1,0 +1,52 @@
+{
+    "batcher": {
+        "batch_size": 28,
+        "frame_rate": 16000,
+        "fftsize": 512,
+        "overlap": 2,
+        "min_snr": -10,
+        "max_snr": 5,
+        "context_size": 100,
+        "enable_rir": 1,
+        "rir_prob": 0.9,
+        "mix_win_time": 2,
+        "enable_preemphasis": 0,
+        "num_channels": 1,
+        "n_mels": 128,
+        "input_height": 257
+    },
+
+    "trainer": {
+        "max_num_step": 7000,
+        "check_stop_frequency": 100,
+        "stop_threshold": 1000,
+        "print_step": 100,
+
+        "learning_rate": 0.001,
+        "max_to_keep": 5,
+        "device": "/gpu:0",
+
+        "validation_frequency": 100,
+        "save_model_frequency": 500
+    },
+
+    "model": {
+        "filter_size": 3,
+        "window_width": 100,
+        "num_classes": 2,
+        "exp_decay": 0.9,
+        "batch_norm": 0,
+        "regularization": 1,
+        "reg_coef": 1e-6,
+        "xavier_initializer": 1,
+        "loss_function": "softmax",
+        "time_attention": 0,
+        "frequency_attention": 1,
+        "enable_summary": 0,
+
+        "device": "/gpu:0"
+    },
+
+    "log_file_name": "mad_super_log",
+    "exp_name": "crnn_final_tanh"
+}

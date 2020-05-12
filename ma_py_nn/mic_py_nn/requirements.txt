@@ -1,0 +1,52 @@
+name: ml_py35
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2018.03.07=0
+  - certifi=2018.4.16=py35_0
+  - libedit=3.1=heed3624_0
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=7.2.0=hdf63c60_3
+  - libstdcxx-ng=7.2.0=hdf63c60_3
+  - ncurses=6.0=h9df7e31_2
+  - openssl=1.0.2o=h20670df_0
+  - pip=9.0.3=py35_0
+  - python=3.5.5=hc3d631a_3
+  - readline=7.0=ha6073c6_4
+  - setuptools=39.0.1=py35_0
+  - sqlite=3.23.1=he433501_0
+  - tk=8.6.7=hc745277_3
+  - wheel=0.31.0=py35_0
+  - xz=5.2.3=h5e939de_4
+  - zlib=1.2.11=ha838bed_2
+  - pip:
+    - absl-py==0.2.0
+    - astor==0.6.2
+    - bleach==1.5.0
+    - bunch==1.0.1
+    - cffi==1.11.5
+    - cycler==0.10.0
+    - future==0.16.0
+    - gast==0.2.0
+    - grpcio==1.11.0
+    - html5lib==0.9999999
+    - kiwisolver==1.0.1
+    - markdown==2.6.11
+    - matplotlib==2.2.2
+    - mir-eval==0.4
+    - numpy==1.14.2
+    - protobuf==3.5.2.post1
+    - pycparser==2.18
+    - pyparsing==2.2.0
+    - pysoundfile==0.9.0.post1
+    - python-dateutil==2.7.2
+    - pytz==2018.4
+    - scikit-learn==0.19.1
+    - scipy==1.0.1
+    - six==1.11.0
+    - tensorboard==1.7.0
+    - tensorflow-gpu==1.7.0
+    - termcolor==1.1.0
+    - werkzeug==0.14.1
+prefix: /home/superuser/miniconda3/envs/ml_py35
+

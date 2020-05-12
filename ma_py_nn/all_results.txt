@@ -1,0 +1,4 @@
+task = < script_name = chimera.py  config_path = 8_chimera_r05_em_20_a05_ctx_150_tanh_snr_3_size_4x500.json dataset_name = data_dc_v11 > | result = {'v42_SDRi': 10.037458003266249, 'v8_SDRi': -0.060949863125423734, 'v10_SDRi': 3.1535849529662277} 
+task = < script_name = chimera.py  config_path = 8_chimera_r09_em_30_a09_ctx_100_tanh_snr_3_size_4x500.json dataset_name = data_dc_v11 > | result = {'v42_SDRi': 9.02333023798462, 'v8_SDRi': 1.4446023101316785, 'v10_SDRi': 3.7089114444037787} 
+task = < script_name = chimera.py  config_path = 8_chimera_r09_em_30_a05_ctx_100_tanh_snr_3_size_4x500.json dataset_name = data_dc_v11 > | result = {'v42_SDRi': 9.613862696466313, 'v8_SDRi': 2.765623514396252, 'v10_SDRi': 3.866489824742366} 
+task = < script_name = chimera.py  config_path = 8_chimera_r09_em_30_a01_ctx_100_tanh_snr_3_size_4x500.json dataset_name = data_dc_v11 > | result = {'v42_SDRi': 10.241391755751293, 'v8_SDRi': 2.4890377786566673, 'v10_SDRi': 3.2411667953627563} 

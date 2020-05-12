@@ -1,0 +1,263 @@
+    #sp  [2017-11-23 19:59:26] [0x00002404] :  [INF] MicGridProcessor::SetDirectionAngles, angleFiHorz = -30.9141,  angleFiVert = 12.483
+    #################################################################
+    # 1.0 - _nastya_alex PROFILE
+
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 45
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (-30.9141, 12.483)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_nastya_alex/'
+    out_wav_path   = r'./data/out/'
+    #################################################################
+
+
+
+    #sp [2017-11-07 17:15:41] [0x00000590] :  [INF] MicGridProcessor::SetDirectionAngles, angleFiHorz = 12.051,  angleFiVert = 5.88161
+    #################################################################
+    # 1.0 - _du_hast PROFILE
+
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 45
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (12.051, 5.88161)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_du_hast/'
+    out_wav_path   = r'./data/out/'
+    #################################################################
+
+
+    #MicGridProcessor::SetDirectionAngles, angleFiHorz = 13.9677,  angleFiVert = 5.65098
+    #################################################################
+    # 1.0 - _rameses PROFILE
+
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (13.9677, 5.65098)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_rameses/'
+    out_wav_path   = r'./data/out/'
+    #################################################################
+
+
+
+    #################################################################
+    # 1.0 - _rameses PROFILE MVDR
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 2*60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (13.9677, 5.65098)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_rameses/'
+    out_wav_path   = r'./data/out/'
+
+
+    _noise_start   = 8
+    _noise_end     = 26
+
+    _mix_start     = 26
+    _mix_end       = 104
+
+    _sp_start      = 104
+    _sp_end        = 128
+    #################################################################
+
+
+
+    #back 0-7
+    #sp [2017-12-01 13:46:23] [0x00000344] :  [INF] MicGridProcessor::SetDirectionAngles, angleFiHorz = 2.37685,  angleFiVert = -4.85129
+    #################################################################
+    # 1.0 - _5 PROFILE MVDR
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 2*60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (2.37685, -4.85129)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_5/'
+    out_wav_path   = r'./data/out/'
+
+
+    _noise_start   = 0
+    _noise_end     = 7
+
+    _mix_start     = 7
+    _mix_end       = 88
+
+    _sp_start      = 88
+    _sp_end        = 90
+    #################################################################
+
+
+    #################################################################
+    # 1.0 - _sol PROFILE MVDR
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 3*60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (13.8845, 6.60824)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_sol/'
+    out_wav_path   = r'./data/out/'
+
+
+    _noise_start   = 9
+    _noise_end     = 28
+
+    _mix_start     = 28
+    _mix_end       = 98
+
+    _sp_start      = 98
+    _sp_end        = 112
+    #################################################################
+
+
+
+
+    #################################################################
+    # 1.0 - _wav_wbn45_dict0 PROFILE
+
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 45
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (0.0, 0.0)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_wav_wbn45_dict0/'
+    out_wav_path   = r'./data/out/'
+    #################################################################
+
+
+    #################################################################
+    # 1.0 - LANDA PROFILE
+    vert_mic_count = 1
+    hor_mic_count  = 8
+    dHor           = 0.05
+    dVert          = 0.05
+    max_len_sec    = 60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (16.0, 0.0)
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_landa/'
+    out_wav_path   = r'./data/out/'
+    #################################################################
+
+
+    #################################################################
+    # 1.0 - _buble_n1 PROFILE
+
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 3*60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (5.3443, 7.51716)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_buble_n1/'
+    out_wav_path   = r'./data/out/'
+    _mix_start   = 14
+    _mix_end     = 40
+
+    #################################################################
+
+
+    #################################################################
+    #spk1 -  angleFiHorz = 7.15392,  angleFiVert = 7.39515    time - 7 ... 90 
+    # 1.0 - _spk1 PROFILE
+
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 3*60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (7.15392, 7.39515)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_spk1/'
+    out_wav_path   = r'./data/out/'
+    _mix_start   = 7
+    _mix_end     = 90
+
+    #################################################################
+    #################################################################
+    #spk2 - angleFiHorz = -2.77629,  angleFiVert = 6.42874    time - 7 ... 51
+    # 1.0 - _spk2 PROFILE
+
+    vert_mic_count = 6
+    hor_mic_count  = 11
+    dHor           = 0.035
+    dVert          = 0.05
+    max_len_sec    = 3*60
+    n_fft          = 512
+
+    (angle_hor_log, angle_vert_log) = (-2.77629, 6.42874)
+
+    angle_h = -angle_hor_log
+    angle_v = -angle_vert_log
+
+    in_wav_path    = r'./data/_spk2/'
+    out_wav_path   = r'./data/out/'
+    _mix_start   = 7
+    _mix_end     = 51
+
+    #################################################################
+
